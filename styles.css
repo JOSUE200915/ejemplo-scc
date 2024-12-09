@@ -1,0 +1,50 @@
+/* Colores inspirados en TikTok */
+:root {
+    --negro: #000000;
+    --blanco: #ffffff;
+    --rosado: #fe2c55;
+    --celeste: #25f4ee;
+}
+
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--negro); /* Fondo negro */
+    color: var(--blanco); /* Texto blanco */
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, var(--rosado), var(--celeste));
+    padding: 20px;
+    text-align: center;
+    color: var(--blanco);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+.contenido {
+    background-color: var(--rosado);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--negro);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: var(--celeste);
+    padding: 10px;
+    text-align: center;
+    color: var(--negro);
+    margin-top: 20px;
+}
